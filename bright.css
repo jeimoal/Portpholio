@@ -1,0 +1,12 @@
+:root {
+	--txtColor: #0dcaf0;
+	--bgColor: #0dcaf0;
+}
+
+.text-color {
+	color: var(--txtColor);
+}
+
+.bg-color {
+	background-color: var(--bgColor);
+}
