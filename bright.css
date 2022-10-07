@@ -10,3 +10,23 @@
 .bg-color {
 	background-color: var(--bgColor);
 }
+
+.rspMenu {
+	display: none;
+}
+
+.hideMenu {
+	display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+.hideMenu {
+	display: none;
+}
+
+.menuRsp {
+	display: flex;
+}
+
+}
