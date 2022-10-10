@@ -10,10 +10,38 @@ body {
 	color: var(--bodyTxt);
 }
 
+.menuTxtColor {
+	color: var(--bodyTxt);
+}
+
+.menuTxtColor:visited {
+	color: var(--bodyTxt);
+}
+
 .text-color {
 	color: var(--txtColor);
 }
 
 .bg-color {
 	background-color: var(--bgColor);
+}
+
+.rspMenu {
+	display: none;
+}
+
+.hideMenu {
+	display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+.hideMenu {
+	display: none;
+}
+
+.menuRsp {
+	display: flex;
+}
+
 }
